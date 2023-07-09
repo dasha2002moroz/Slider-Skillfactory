@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Nunito_Sans; /* Гарнитура шрифта */
+    src: url(fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf);
+}
+*{
+    font-family: Nunito_Sans;
+    size: 14px;  
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 100px;
+    display: inline-flex;
+
+}
+.text_container{
+    width: 500px;
+}
+/* #second_photo{
+    display: none;
+}
+#third_photo{
+    display: none;
+} */
+.image_container{
+    height: 482px;
+    width: 700px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.image_container_scrolling{
+    height: 482px;
+    width: 2037px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.title{
+    display: inline-flex;
+}
+.btns-toggle{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 26px;
+}
+.btns-toggle button{
+    background: black;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.editable_text_apartment{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.switch{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 55px 1px;
+}
+.switch button{
+    background-color: black;
+    padding: 0px 40px;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.circle1{
+    display: block;
+}
+.circle2{
+    display: none;
+}
+.circle3{
+    display: none;
+}

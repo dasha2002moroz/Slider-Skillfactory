@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text_container">
+            <div class="immutable-text">
+                <div class="title">
+                    <img src="image/Completed projects.svg">
+                    <svg>
+                    <line x1="0" y1="100" x2="92" y2="100" stroke="#E3B873"/>
+                    </svg>
+                </div>
+                <p>Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
+                    market we have made happy more than 1000 families</p>
+            </div>
+            <div class="editable_text_apartment">
+                <div class="city-and-apartment">
+                    <div class="city">
+                        <img src="image/City_.svg">
+                        <p id="city">Rostov-on-Don
+                            LCD admiral</p>
+                    </div>
+                    <div class="apartment">
+                        <img src="image/apartment area_.svg">
+                        <p id="apartment">81 m2</p>
+                    </div>
+                </div>
+                <div class="time-and-cost">
+                    <div class="time">
+                        <img src="image/Repair time_.svg" alt="">
+                        <p id="time">3.5 months</p>
+                    </div>
+                    <div class="cost">
+                        <img src="image/Repair Cost_.svg" alt="">
+                        <p id="cost">Upon request</p>
+                    </div>
+                </div>
+            </div>
+            <div class="switch">
+                <button class="switch-prev">
+                    <img src="image/Group.svg" alt="prev">
+                </button>
+                <div class="circle-group"></div>
+                <img src="image/Group 7.11.svg" alt="circle1" class="circle1">
+                <img src="image/Group 7.12.svg" alt="circle2" class="circle2">
+                <img src="image/Group 7.13.svg" alt="circle3" class="circle3">
+                <button class="switch-next">
+                    <img src="image/Group (1).svg" alt="next">
+                </button>
+            </div>
+        </div>
+        <div class="image_container">
+            <div class="btns-toggle">
+                <button class="rostov-admiral-clicked">ROSTOV-ON-DON, ADMIRAL</button>
+                <button class="cochi-clicked">SOCHI THIEVES</button>
+                <button class="rostov-patriotic-clicked">ROSTOV-ON-DON PATRIOTIC</button>
+            </div>
+            <div class="image_container_scrolling">
+                <img src="image/number_one.png" alt="image_apartment" id="first_photo" height="482px" width="679px">
+                <img src="image/number_two.png" alt="image_apartment" id="second_photo" height="482px" width="679px">
+                <img src="image/number_three.png" alt="image_apartment" id="third_photo" height="482px" width="679px">
+            </div>
+            
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
